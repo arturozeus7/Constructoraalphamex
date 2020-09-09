@@ -139,7 +139,7 @@ body {
     height: 100%
 }
 
-h1,
+/*h1,
 h2,
 h3,
 h4,
@@ -148,7 +148,7 @@ h6 {
     color: #333;
     font-family: 'NissanBrand-Regular';
     font-weight: 600;
-}
+}*/
 a {
     color: #30A3F0;
     font-family: 'NissanBrand-Regular';
@@ -235,15 +235,147 @@ p {
 
 
 .vision {
-  position: absolute;
+  background-image: url(../img/arquidark.jpg);
+  /*position: fixed;*/
   width: 100%;
-  height: 300px;
+  height: auto;
   left: 0;
-  top: 0;
-  background-image: url(../img/slide_011.jpg);
-  /*z-index: 2;*/
-  padding-bottom: 50px;
-  margin-right: -15px;
-  margin-left: +15px;
+  top: 0;*/
+
 }
+
+
+/*img {
+  width: 100%;
+  height: auto;
+}*/
+
+
+/*h1,
+.styletitle h5,
+.styletitle h6, {
+  color: : #FFFFFF;
+  font-family: 'NissanBrand-Regular';
+  font-weight: 700;
+
+}*/
+
+
+/* PORTFOLIO */
+
+#portfolio {
+  text-align: center;
+}
+
+.projects-holder .mix {
+  display: none;
+}
+
+.filter-categories {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 60px;
+}
+
+.filter-categories ul li {
+  margin: 0px 10px 15px 10px;
+  display: inline-block;
+}
+
+.filter-categories ul li span {
+  cursor: pointer;
+  color: #11A9EB;
+  display: inline-block;
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.filter-categories ul li.active span {
+  color: #11A9EB;
+}
+
+.project-item {
+  margin-top: 30px;
+}
+
+.project-item .thumb {
+  position: relative;
+  text-align: center;
+  display: inline-block;
+}
+
+.project-item .thumb img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.project-item .hover-effect {
+  position: absolute;
+  background-color: rgba(167, 167, 167, 0.45);
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+
+.project-item .hover-effect i {
+  text-align: center;
+  margin-top: 35%;
+  display: inline-block;
+  width: 46px;
+  height: 46px;
+  background-color: #fff;
+  line-height: 46px;
+  color: #a2cf8d;
+  border-radius: 50%;
+  font-size: 18px;
+}
+
+.project-item .hover-effect i:hover {
+  background-color: #5c9d7d;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.project-item:hover .hover-effect {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+
+
+/***** Estilo de imagen ******/
+.centrado {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+
+/*.imgproject:hover {
+  filter: opacity(.5);
+  transition: all 0.5s;
+}*/
+
+
+.image:hover .imgproject {
+  -webkit-transform:scale(1.3);
+  transform:scale(1.3);
+  filter: brightness(.6);
+  transition: transform .2s;
+}
+
+.image {
+  overflow:hidden;
+  height: 35vh;
+}
+
+
 
