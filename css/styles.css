@@ -367,6 +367,7 @@ p {
 .image {
   overflow:hidden;
   height: 35vh;
+
 }
 
 
@@ -383,12 +384,6 @@ p {
 .mision  {
   background-image: url(../img/cortar.jpg);
   background-size: cover;
-  /*position: fixed;
-  width: 100%;
-  height: auto;
-  left: 0;
-  top: 0;*/
-
   color: #FFF;
   text-align: center;
 
@@ -400,6 +395,33 @@ p {
 
 .textmision{
   padding: 5vh;
+}
+
+
+
+/****some project*******/
+
+.contboton{
+  height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 700px) {
+.contboton{
+  height: auto;
+}
+}
+
+
+
+
+
+/*****valores ********/
+
+.valores{
+
 }
 
 
