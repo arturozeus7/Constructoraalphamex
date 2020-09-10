@@ -233,18 +233,6 @@ p {
 
 
 
-
-.vision {
-  background-image: url(../img/arquidark.jpg);
-  /*position: fixed;*/
-  width: 100%;
-  height: auto;
-  left: 0;
-  top: 0;*/
-
-}
-
-
 /*img {
   width: 100%;
   height: auto;
@@ -349,7 +337,10 @@ p {
 
 
 
-/***** Estilo de imagen ******/
+
+
+
+/***** Estilo de Imagen proyecto.html ******/
 .centrado {
   position: absolute;
   top: 50%;
@@ -357,13 +348,6 @@ p {
   transform: translate(-50%, -50%);
   color: #fff;
 }
-
-
-/*.imgproject:hover {
-  filter: opacity(.5);
-  transition: all 0.5s;
-}*/
-
 
 .image:hover .imgproject {
   -webkit-transform:scale(1.3);
@@ -384,6 +368,42 @@ p {
   overflow:hidden;
   height: 35vh;
 }
+
+
+/******* Portada ******/
+.cd-hero-slider li:first-of-type {
+  background-image: url(../img/f09light.jpg);
+}
+
+
+
+
+/*******mision****/
+
+.mision  {
+  background-image: url(../img/cortar.jpg);
+  background-size: cover;
+  /*position: fixed;
+  width: 100%;
+  height: auto;
+  left: 0;
+  top: 0;*/
+
+  color: #FFF;
+  text-align: center;
+
+
+}
+.mision p {
+  color:#FFF;
+}
+
+.textmision{
+  padding: 5vh;
+}
+
+
+
 
 
 
