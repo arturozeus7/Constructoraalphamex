@@ -421,9 +421,21 @@ p {
 /*****valores ********/
 
 .valores{
-
+  background-image: url(../img/medirdark.jpg);
+  background-size: cover;
+  color: #FFF;
+  text-align: center;
 }
 
+.valores li,{
+  color: #FFF;
+}
+
+.valores p {
+  font-size: 16px;
+  color: #FFF;
+
+}
 
 
 
