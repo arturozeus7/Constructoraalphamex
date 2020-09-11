@@ -425,6 +425,8 @@ p {
   background-size: cover;
   color: #FFF;
   text-align: center;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 
 .valores li,{
@@ -436,6 +438,51 @@ p {
   color: #FFF;
 
 }
+
+
+
+
+
+/******footer*********/
+.social-icons {
+
+  
+}
+.social-icons a {
+  font-size: 30px;
+  border-radius: 50%
+  border: 1px solid red;
+  padding: 10px;
+
+}
+
+
+
+/*****Coloresde figuras********/
+
+.navbar-inverse .navbar-toggle {
+  margin-top: 22px;
+    border-color: #5bc0de;
+    background-color: #5bc0de;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+  background-color: #5bc0de;
+}
+
+footer ul li a {
+  background-color: #FFFFFF;
+}
+
+.copyright-text p {
+  text-align: center;
+  margin-top: 0px;
+}
+
+
+
+
+/*********contacto***********/
+
 
 
 
